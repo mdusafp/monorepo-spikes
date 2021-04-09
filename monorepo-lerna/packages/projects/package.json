@@ -1,0 +1,23 @@
+{
+  "name": "projects",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Vadim Maliutin <vmaliutin@griddynamics.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/projects.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Hello from projects\" && exit 1",
+    "clean:build": "rimraf build"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
