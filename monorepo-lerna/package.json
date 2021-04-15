@@ -3,16 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
-  "private": true,
   "devDependencies": {
     "lerna": "^4.0.0",
     "lerna-changelog": "^1.0.1"
-  },
-  "scripts": {
-    "test": "lerna run test",
-    "clean:build": "lerna run clean:build"
   }
 }

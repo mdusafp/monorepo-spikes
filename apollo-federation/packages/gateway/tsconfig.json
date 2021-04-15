@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "lib": ["DOM", "ES6"],
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "removeComments": true,
+    "target": "ES2020",
+    "rootDir": "lib",
+    "allowSyntheticDefaultImports": true
+  },
+  "lib": ["es2018", "esnext.asynciterable"],
+  "exclude": ["**/node_modules/**"],
+  "include": ["lib/**/*.ts"]
+}
